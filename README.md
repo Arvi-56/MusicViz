@@ -4,7 +4,7 @@ Ive decided to torture myself with the ambitious goal of creating a data viz fro
 (such as volume and pitch)
 
 I have the data extraction working (see Tester.py) printing to a target.txt file 
-and a working plain html (see yall.html) and a-frame page with just a circle (see 
+and a working plain html (see yall.html) and a-frame page with just a circle (see A-FrameTest.html)
 
 I want to make the circle radius change with volume and the color to change with pitch
 At least for pitch I know I will need a bunch of if statements.
