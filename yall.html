@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+  <script>
+    window.onload = function(){
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    var radius = 70
+
+    context.arc(canvas.width / 2, canvas.height / 2, radius, 0, 2 * Math.PI, false);
+    context.fillStyle = "#8ED6FF";
+    context.fill();
+    context.lineWidth = 5;
+    context.strokeStyle = "black";
+    context.stroke();
+    };
+  </script>
+<canvas id="myCanvas" width="1420" height="685">
+</canvas>
+</body>
+</html>
